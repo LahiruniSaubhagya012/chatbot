@@ -1,0 +1,107 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a3d66; 
+    margin-bottom: 8px;
+}
+
+.login-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.login-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn:disabled {
+    background-color: #cccccc !important;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.blue-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.blue-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+   transform: translateY(-1px);
+   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.green-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.green-btn:hover:not(:disabled) {
+    background-color: #1e7e34;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.secondary-btn {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #ced4da;
+}
+
+.secondary-btn:hover:not(:disabled) {
+    background-color: #e2e6ea;
+}
+
+
+.login-footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #adb5bd;
+}
